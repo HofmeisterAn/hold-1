@@ -1,0 +1,61 @@
+Privacy Policy for Hold: Train Healthier
+
+Last updated: 30 May 2026
+
+Hold ("the app") is designed to keep your data on your device. We do not run
+servers, we do not operate analytics, and we do not collect, sell, or share
+your personal information. This policy explains what the app accesses and why.
+
+Summary
+
+- No data leaves your device to us or any third party.
+- No accounts, no tracking, no advertising, no analytics.
+- Health and workout data are used only on your device to show your heart-rate
+  zones.
+
+Information the app accesses
+
+Apple Health (read-only). With your permission, Hold reads your date of birth,
+biological sex, and resting heart rate to calculate your maximum heart rate and
+personalized training zones. This data is read on demand, used only to perform
+that calculation on your device, and is never written back to Health, stored on
+a server, or transmitted to us. You can grant or revoke this access at any time
+in the iOS Settings app under Privacy & Security > Health.
+
+Bluetooth. Hold connects to your heart-rate sensor over Bluetooth to read your
+live heart rate during workouts. The name and identifier of sensors you pair
+are stored locally on your device so the app can reconnect to them. This
+information is not transmitted anywhere.
+
+Workout sessions. Heart-rate samples and workout summaries you record are stored
+locally on your device. They remain on your device and are included in your
+device backups if you have those enabled (for example, iCloud or encrypted
+local backups managed by Apple); we never receive them.
+
+App settings. Preferences such as your chosen theme are stored locally on your
+device.
+
+Purchases
+
+Hold offers optional in-app tips to support development. Purchases are
+processed entirely by Apple through the App Store. We do not receive your name,
+payment details, or any other personal information from these transactions -
+only an anonymous confirmation that a purchase completed. Apple's handling of
+payment information is governed by Apple's own privacy policy.
+
+Data sharing
+
+We do not share your information with any third party, because we never collect
+it in the first place. The app contains no third-party analytics, advertising,
+or tracking software, and does not track you across other apps or websites.
+
+Data retention and deletion
+
+All data the app creates or accesses stays on your device. To delete it,
+uninstall the app. To revoke Health or Bluetooth permissions without
+uninstalling, use the iOS Settings app.
+
+Changes to this policy
+
+If this policy changes, the updated version will be posted at this same
+location with a revised "Last updated" date.
