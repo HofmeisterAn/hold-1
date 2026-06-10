@@ -13,7 +13,7 @@
 <style>
   :root{
     --bg:#FBF8F4; --surface:#FFFFFF; --sunk:#F1ECE3; --hairline:#E7E0D3;
-    --ink:#1A1614; --ink-2:#6B655E; --ink-3:#9C958C;
+    --ink:#1A1614; --ink-2:#6B655E; --ink-3:#9C958C; --ink-hover:#34302C;
     --z-recovery:#4F9C90; --z-endurance:#8AA862; --z-tempo:#D49A3C;
     --z-threshold:#DE7553; --z-max:#D94B6A;
     color-scheme:light;
@@ -57,9 +57,9 @@
     background:var(--ink);color:var(--bg);
     font-size:16px;font-weight:600;letter-spacing:-0.01em;
     padding:14px 22px;border-radius:14px;
-    transition:transform .12s ease, opacity .12s ease;
+    transition:background .12s ease, transform .12s ease;
   }
-  .email:hover{opacity:0.9}
+  .email:hover{background:var(--ink-hover)}
   .email:active{transform:scale(0.98)}
   .email:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
   .email svg{width:17px;height:17px;display:block;flex-shrink:0;fill:currentColor}
