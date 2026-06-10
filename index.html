@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hold — Support</title>
+<style>
+  :root{
+    --bg:#FBF8F4; --surface:#FFFFFF; --sunk:#F1ECE3; --hairline:#E7E0D3;
+    --ink:#1A1614; --ink-2:#6B655E; --ink-3:#9C958C;
+    --z-recovery:#4F9C90; --z-endurance:#8AA862; --z-tempo:#D49A3C;
+    --z-threshold:#DE7553; --z-max:#D94B6A;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    padding:32px;
+  }
+  .card{
+    width:100%;max-width:460px;
+    background:var(--surface);
+    border:1px solid var(--hairline);
+    border-radius:20px;
+    padding:44px 40px 38px;
+    box-shadow:0 1px 0 rgba(0,0,0,0.02), 0 24px 60px -32px rgba(20,15,10,0.22);
+    text-align:center;
+  }
+  .icon{
+    width:64px;height:64px;border-radius:15px;overflow:hidden;margin:0 auto 26px;
+    box-shadow:0 1px 1px rgba(0,0,0,0.04), 0 10px 24px -10px rgba(20,15,10,0.28);
+  }
+  .icon svg{display:block;width:100%;height:100%}
+  .eyebrow{
+    font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-3);font-weight:500;
+    margin-bottom:12px;
+  }
+  h1{
+    font-family:-apple-system,"SF Pro Display",sans-serif;
+    font-weight:700;letter-spacing:-0.025em;font-size:30px;line-height:1.1;margin:0 0 14px;
+  }
+  p{font-size:16px;line-height:1.55;color:var(--ink-2);margin:0 auto 28px;max-width:34ch;text-wrap:pretty}
+  .email{
+    display:inline-flex;align-items:center;gap:10px;
+    text-decoration:none;
+    background:var(--ink);color:var(--bg);
+    font-size:16px;font-weight:600;letter-spacing:-0.01em;
+    padding:14px 22px;border-radius:14px;
+    transition:transform .12s ease, opacity .12s ease;
+  }
+  .email:hover{opacity:0.9}
+  .email:active{transform:scale(0.98)}
+  .email svg{width:17px;height:17px;display:block}
+  .note{
+    margin:24px auto 0;font-size:13px;color:var(--ink-3);
+  }
+  .zonebar{display:flex;height:5px;border-radius:3px;overflow:hidden;margin-top:30px;gap:2px}
+  .zonebar span{flex:1;border-radius:1.5px}
+  footer{
+    margin-top:22px;font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    font-size:11px;color:var(--ink-3);letter-spacing:0.03em;
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon" aria-hidden="true">
+      <svg viewBox="0 0 4267 4267" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd">
+        <rect x="0" y="0" width="4266.14" height="4266.14" fill="#fbf8f4"/>
+        <clipPath id="iconclip"><path d="M2133.07,533.266c-1112.36,0 -1599.8,487.439 -1599.8,1599.8c-0,1112.36 487.439,1599.8 1599.8,1599.8c1112.36,-0 1599.8,-487.439 1599.8,-1599.8c0,-1112.36 -487.439,-1599.8 -1599.8,-1599.8Z"/></clipPath>
+        <g clip-path="url(#iconclip)">
+          <rect x="533.266" y="533.266" width="3199.59" height="311.961" fill="#5e84b4"/>
+          <rect x="533.266" y="845.227" width="3199.59" height="359.955" fill="#4f9c90"/>
+          <rect x="533.266" y="1205.18" width="3199.59" height="1345.66" fill="#8aa862"/>
+          <rect x="533.266" y="2550.84" width="3199.59" height="443.945" fill="#d49a3c"/>
+          <rect x="533.266" y="2994.79" width="3199.59" height="443.945" fill="#de7553"/>
+          <rect x="533.266" y="3438.73" width="3199.59" height="294.126" fill="#d94b6a"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="eyebrow">Support</div>
+    <h1>Need help with Hold?</h1>
+    <p>Hold is built and supported by one person. Email me and I'll get back to you as soon as I can.</p>
+
+    <a class="email" href="mailto:Hold@AndreHofmeister.com?subject=Hold%20support">
+      <svg viewBox="0 0 24 24" fill="none"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6.5l8.5 6 8.5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Hold@AndreHofmeister.com
+    </a>
+
+    <p class="note">It helps to mention your iPhone model and iOS version.</p>
+
+    <div class="zonebar" aria-hidden="true">
+      <span style="background:var(--z-recovery)"></span>
+      <span style="background:var(--z-endurance)"></span>
+      <span style="background:var(--z-tempo)"></span>
+      <span style="background:var(--z-threshold)"></span>
+      <span style="background:var(--z-max)"></span>
+    </div>
+    <footer>Hold · andrehofmeister.com</footer>
+  </main>
+</body>
+</html>
