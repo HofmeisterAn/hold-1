@@ -4,21 +4,28 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hold — Support</title>
+<meta name="description" content="Support for Hold. Get in touch by email — built and supported by one person.">
+<meta name="theme-color" content="#FBF8F4">
+<meta property="og:title" content="Hold — Support">
+<meta property="og:description" content="Support for Hold. Get in touch by email — built and supported by one person.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3CclipPath id='c'%3E%3Crect x='4' y='4' width='56' height='56' rx='28'/%3E%3C/clipPath%3E%3Cg clip-path='url(%23c)'%3E%3Crect x='4' y='4' width='56' height='6' fill='%235e84b4'/%3E%3Crect x='4' y='10' width='56' height='7' fill='%234f9c90'/%3E%3Crect x='4' y='17' width='56' height='21' fill='%238aa862'/%3E%3Crect x='4' y='38' width='56' height='8' fill='%23d49a3c'/%3E%3Crect x='4' y='46' width='56' height='8' fill='%23de7553'/%3E%3Crect x='4' y='54' width='56' height='6' fill='%23d94b6a'/%3E%3C/g%3E%3C/svg%3E">
 <style>
   :root{
     --bg:#FBF8F4; --surface:#FFFFFF; --sunk:#F1ECE3; --hairline:#E7E0D3;
     --ink:#1A1614; --ink-2:#6B655E; --ink-3:#9C958C;
     --z-recovery:#4F9C90; --z-endurance:#8AA862; --z-tempo:#D49A3C;
     --z-threshold:#DE7553; --z-max:#D94B6A;
+    color-scheme:light;
   }
   *{box-sizing:border-box}
-  html,body{margin:0;height:100%}
+  html,body{margin:0}
   body{
     background:var(--bg);color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;
     -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
-    min-height:100vh;display:flex;align-items:center;justify-content:center;
-    padding:32px;
+    min-height:100vh;min-height:100svh;display:flex;align-items:center;justify-content:center;
+    padding:32px 24px;
   }
   .card{
     width:100%;max-width:460px;
@@ -54,7 +61,12 @@
   }
   .email:hover{opacity:0.9}
   .email:active{transform:scale(0.98)}
-  .email svg{width:17px;height:17px;display:block}
+  .email:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+  .email svg{width:17px;height:17px;display:block;flex-shrink:0;fill:currentColor}
+  @media (prefers-reduced-motion:reduce){
+    .email{transition:none}
+    .email:active{transform:none}
+  }
   .note{
     margin:24px auto 0;font-size:13px;color:var(--ink-3);
   }
@@ -63,6 +75,12 @@
   footer{
     margin-top:22px;font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
     font-size:11px;color:var(--ink-3);letter-spacing:0.03em;
+  }
+  @media (max-width:380px){
+    .card{padding:36px 24px 30px}
+    h1{font-size:26px}
+    .email{font-size:14px;padding:13px 16px;gap:8px}
+    .email svg{width:15px;height:15px}
   }
 </style>
 </head>
@@ -88,7 +106,7 @@
     <p>Hold is built and supported by one person. Email me and I'll get back to you as soon as I can.</p>
 
     <a class="email" href="mailto:Hold@AndreHofmeister.com?subject=Hold%20support">
-      <svg viewBox="0 0 24 24" fill="none"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6.5l8.5 6 8.5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path d="M48 64C21.5 64 0 85.5.0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4.0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4.0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3.0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8.0L0 176z"></path></svg>
       Hold@AndreHofmeister.com
     </a>
 
