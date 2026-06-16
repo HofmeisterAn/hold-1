@@ -1,6 +1,6 @@
 Privacy Policy for Hold: Train Healthier
 
-Last updated: 30 May 2026
+Last updated: 16 June 2026
 
 Hold ("the app") is designed to keep your data on your device. We do not run
 servers, we do not operate analytics, and we do not collect, sell, or share
@@ -12,25 +12,46 @@ Summary
 - No accounts, no tracking, no advertising, no analytics.
 - Health and workout data are used only on your device to show your heart-rate
   zones.
+- Workouts you track on your Apple Watch are saved to Apple Health on your
+  device, and only when you choose to keep them.
+- Your location is used only during outdoor workouts, on your device, to
+  record your route.
 
 Information the app accesses
 
-Apple Health (read-only). With your permission, Hold reads your date of birth,
-biological sex, and resting heart rate to calculate your maximum heart rate and
-personalized training zones. This data is read on demand, used only to perform
-that calculation on your device, and is never written back to Health, stored on
-a server, or transmitted to us. You can grant or revoke this access at any time
-in the iOS Settings app under Privacy & Security > Health.
+Apple Health (read). With your permission, Hold reads your date of birth,
+biological sex, and resting heart rate to calculate your maximum heart rate
+and personalized training zones. This data is read on demand, used only for
+that calculation on your device, and never stored on a server or transmitted
+to us. You can grant or revoke this access at any time in the iOS Settings app
+under Privacy & Security > Health.
+
+Apple Health (write). With your permission, when you finish a workout on your
+Apple Watch and choose to save it, Hold writes that workout to Apple Health:
+the workout type you picked, your heart rate, duration, active calories, and
+distance, plus your route for outdoor workouts. This is the same kind of
+record the built-in Workout app creates. It stays in Apple Health under
+Apple's health-data protections and is never transmitted to us. You can revoke
+write access at any time in the iOS Settings app, and you can view or delete
+saved workouts in the Health app.
+
+Location. Hold uses your location only during outdoor workouts started on your
+Apple Watch, to record your route and distance. Location is read only while
+the workout is running, saved solely as part of that workout in Apple Health,
+and never transmitted anywhere. Indoor workouts never access your location.
+You can grant or revoke this access at any time in Settings.
 
 Bluetooth. Hold connects to your heart-rate sensor over Bluetooth to read your
 live heart rate during workouts. The name and identifier of sensors you pair
-are stored locally on your device so the app can reconnect to them. This
-information is not transmitted anywhere.
+are stored locally so the app can reconnect to them. This information is not
+transmitted anywhere.
 
-Workout sessions. Heart-rate samples and workout summaries you record are stored
-locally on your device. They remain on your device and are included in your
+Workout sessions. Heart-rate samples and workout summaries you record are
+stored locally on your device. They remain there and are included in your
 device backups if you have those enabled (for example, iCloud or encrypted
-local backups managed by Apple); we never receive them.
+local backups managed by Apple); we never receive them. During a workout, data
+travels directly between your Apple Watch and iPhone and is never routed
+through a server.
 
 App settings. Preferences such as your chosen theme are stored locally on your
 device.
@@ -38,22 +59,27 @@ device.
 Purchases
 
 Hold offers optional in-app tips to support development. Purchases are
-processed entirely by Apple through the App Store. We do not receive your name,
-payment details, or any other personal information from these transactions -
-only an anonymous confirmation that a purchase completed. Apple's handling of
-payment information is governed by Apple's own privacy policy.
+processed entirely by Apple through the App Store. We do not receive your
+name, payment details, or any other personal information from these
+transactions; the only thing we see is an anonymous confirmation that a
+purchase completed.
+Apple's handling of payment information is governed by Apple's own privacy
+policy.
 
 Data sharing
 
-We do not share your information with any third party, because we never collect
-it in the first place. The app contains no third-party analytics, advertising,
-or tracking software, and does not track you across other apps or websites.
+We do not share your information with any third party, because we never
+collect it in the first place. The app contains no third-party analytics,
+advertising, or tracking software, and does not track you across other apps
+or websites.
 
 Data retention and deletion
 
-All data the app creates or accesses stays on your device. To delete it,
-uninstall the app. To revoke Health or Bluetooth permissions without
-uninstalling, use the iOS Settings app.
+Everything the app creates or accesses stays on your device. To delete the
+app's own data, uninstall the app. Workouts you saved to Apple Health are part
+of your Health data and remain there after uninstalling; you can view or
+delete them at any time in the Health app. To revoke Health, Location, or
+Bluetooth permissions without uninstalling, use the iOS Settings app.
 
 Changes to this policy
 
